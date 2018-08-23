@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <TextBox PlaceholderText="Task Name"></TextBox>
+            <Button>Add Task</Button>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            
+        </StackPanel>
     </Grid>
 </Page>
